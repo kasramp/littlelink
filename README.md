@@ -1,32 +1,55 @@
-![Logo](https://cdn.cottle.cloud/littlelink/littlelink.gif)
+![Logo](https://cdn.cottle.cloud/GitHub/LittleLink/littlelink.gif)
 
 # LittleLink
-The DIY self-hosted <a href="https://linktr.ee/" target="_blank" rel="noopener">LinkTree</a> alternative. LittleLink has more than 100 branded button styles you can easily use, with more being added by our community all the time.
+The DIY self-hosted LinkTree alternative. LittleLink has more than 100 branded button styles you can easily use, with more regularly added by our community in this repo and in [LittleLink Extended](https://github.com/sethcottle/littlelink-extended).
 
-![Theme](https://cdn.cottle.cloud/littlelink/themesupport.gif)
+---
+### 🆕 LittleLink Button Builder
+Want to make your own buttons for LittleLink but you're not too sure where to start? [Check out our new Button Builder](https://builder.littlelink.io). This new builder lets you preview button styles and with a single click, copy the generated CSS code to put in `css/brands.css`, and copy the generated HTML code to put in `index.html`. This builder also helps automate accessibility features by checking contrast ratios and suggesting strokes when needed, ensuring your custom buttons maintain LittleLink's high standards for visibility in both light and dark themes. Design your buttons visually, preview them live, and get ready to go code. [Live Site](https://builder.littlelink.io) | [GitHub Repo](https://github.com/sethcottle/littlelink-button-builder)
 
-LittleLink has more than 100 branded button styles you can use (with even more being added by our community). You'll also find a light and dark theme ready to go. Not a fan of the default colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing. You can also set your CSS to `skeleton-auto.css`, which will use the system theme of the device you visit on.
+---
+### 🌞 Themes and Accessibility
+LittleLink offers `auto`, `light`, and `dark` themes right out of the box. If the default color schemes don't match your preference, you can easily customize them by updating the values in `style.css`. You can set any of the themes right in `index.html`. To enhance visual accessibility in both `light` and `dark` modes, buttons lacking sufficient contrast with the background are outlined with an inverse stroke to ensure visibility. While LittleLink emphasizes accessibility, it's important to acknowledge that not all brands incorporated into LittleLink achieve this standard. Branded buttons that come into LittleLink always retain the original essence of the brand and some branded buttons might fall short of optimal accessibility in terms of contrast.
 
-![Performance](https://cdn.cottle.cloud/littlelink/Lighthouse.svg)
+![Theme](https://cdn.cottle.cloud/GitHub/LittleLink/ThemeSupport.gif)
 
-Using [Skeleton](http://getskeleton.com/) let us build something that loads quickly & doesn't have any of the unnecessary bloat you would get from using a large framework for a page that requires nothing more than simplicity. LittleLink scored a 99/100 in performance when tested with [Google Lighthouse](https://developers.google.com/web/tools/lighthouse).
+---
+### 🥇 Performance
 
-![Publish](https://cdn.cottle.cloud/littlelink/Publish.svg)
+![Performance](https://cdn.cottle.cloud/GitHub/LittleLink/ranking.gif)
 
-No need for gulp, npm, or anything else to make LittleLink work—it uses the bare essentials. You can automatically fork and deploy LittleLink with [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), or [Amplify](https://aws.amazon.com/amplify). 👇️
+LittleLink epitomizes simplicity and minimalism. When evaluating the [LittleLink sample page](https://littlelink.io/sample/seth) (which mirrors a typical LittleLink setup for an individual) through tools such as [Google PageSpeed Insights](https://pagespeed.web.dev/analysis/https-littlelink-io-sample-seth/17ex80ryq4?form_factor=mobile), showcases LittleLink's excellence with 100/100 in Performance, Accessibility, Best Practices, and SEO. My initial vision for LittleLink was to craft it from the fundamentals. LittleLink leverages it's own vanilla `css` to remove the unnecessary bloat you would get from using a large framework for a page that requires nothing more than simplicity.
 
-[![Deploy to Netlify](https://cdn.cottle.cloud/littlelink/button-deploy-netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sethcottle/littlelink)
+---
+### ☁️ Deploy
+
+![Publish](https://cdn.cottle.cloud/GitHub/LittleLink/test/css/deploy.gif)
+
+No need for gulp, npm, or anything else to make LittleLink work—it uses the bare essentials. You can automatically fork and deploy LittleLink with [Cloudflare](https://workers.cloudflare.com/), [DigitalOcean](https://www.digitalocean.com/products/app-platform), [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or [Amplify](https://aws.amazon.com/amplify) using the buttons below. LittleLink is also easy to host through [GitHub Pages](https://pages.github.com/) or on your home lab server, CDN, or other frontend hosting services. To edit, all you need is a little basic HTML knowledge to add a link to the exisiting buttons or you can create your own. See our [adding custom buttons to your own fork wiki](https://github.com/sethcottle/littlelink/wiki/Adding-custom-buttons-to-your-own-fork). It's simple, promise. 🤞
+
+---
+##### One-Click Deployments
+
+[![Deploy to Cloudflare](https://cdn.cottle.cloud/littlelink/button-deploy-cloudflare.svg)](https://deploy.workers.cloudflare.com/?url=https://github.com/sethcottle/littlelink)
+
+[![Deploy to DigitalOcean](https://cdn.cottle.cloud/littlelink/button-deploy-digitalocean.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/sethcottle/littlelink/tree/main)
 
 [![Deploy to Vercel](https://cdn.cottle.cloud/littlelink/button-deploy-vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsethcottle%2Flittlelink&project-name=littlelink&repository-name=littlelink)
+
+[![Deploy to Netlify](https://cdn.cottle.cloud/littlelink/button-deploy-netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sethcottle/littlelink)
 
 [![Deploy to Amplify](https://cdn.cottle.cloud/littlelink/button-deploy-amplify.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/sethcottle/littlelink)
 
 ---
 
-### 🤝 Community Extras
+### 🤝 Contributions
+Please reference the [submitting a new brand to LittleLink wiki](https://github.com/sethcottle/littlelink/wiki/Submitting-a-new-brand-to-LittleLink) before opening a PR.
 
-#### 📦 LittleLink Extended
-Looking for more niche services to add to your copy of LittleLink? Check out [LittleLink Extended](https://github.com/sethcottle/littlelink-extended). Users can add more niche services to this repository to help keep the core LittleLink repository less cluttered.
+---
+### 📦 Community Extras
+
+#### 🛸 LittleLink Extended
+Looking for more niche services to add to your copy of LittleLink? Check out [LittleLink Extended](https://github.com/sethcottle/littlelink-extended). Users can add more niche services to this repository to help keep the core LittleLink repository less cluttered and more focused on delivering branded experiences for the majority of users.
 
 #### 🎨 Figma
 Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/community/file/846568099968305613) to help plan out and design your LittleLink page.
@@ -39,9 +62,7 @@ Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/com
 • [Drew](https://github.com/davisdre) is building a [super simple Docker implementation of LittleLink](https://github.com/davisdre/littlelink).
 
 #### 🗃️ Misc
-• [Khashayar](https://github.com/khashayarzavosh) is building [LittleLink Admin](https://github.com/khashayarzavosh/admin-littlelink) which lets you host your own admin portal to manage LittleLink!
-
-• [Julian](https://github.com/JulianPrieber) is building [LittleLink Custom](https://github.com/JulianPrieber/littlelink-custom) which approaches the admin portal with an easy-to-use "plug-and-play" mentality!
+• [Julian](https://github.com/JulianPrieber) is building [LinkStack](https://github.com/LinkStackOrg/LinkStack), which is a fork of [Khashayar](https://github.com/khashayarzavosh)'s [LittleLink Admin](https://github.com/khashayarzavosh/admin-littlelink).
 
 ---
 
@@ -49,6 +70,8 @@ Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/com
 You can support LittleLink by [buying me a coffee](https://www.buymeacoffee.com/seth). You can also have your name or your company added to this section and the supporters page of the [LittleLink.io](https://littlelink.io) website.
 
 #### 🏢 Business Supporters
+• **[Unallocated Space](https://connect.unallocatedspace.org/)** | Hacker/Makerspace in Millersville, MD, serving the greater Baltimore-Washington area
+
 • **[links.dev](https://github.com/fatih-yavuz/links.dev)**
 
 [![Add Your Company Name](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee-company.svg)](https://www.buymeacoffee.com/seth/e/50574)
@@ -60,15 +83,10 @@ You can support LittleLink by [buying me a coffee](https://www.buymeacoffee.com/
 
 [![Buy Me A Coffee](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee-individual.svg)](https://www.buymeacoffee.com/seth/e/50573)
 
-#### 🐙 GitHub Sponsors
+#### 🐙 Active GitHub Sponsors
 • **[Your Name Here](https://github.com/sponsors/sethcottle)**
 
 [![GitHub Sponsors](https://cdn.cottle.cloud/littlelink/button-github-sponsors.svg)](https://github.com/sponsors/sethcottle)
-
-#### ❤️ Patreon Members
-• **[Your Name Here](https://www.patreon.com/sethcottle)**
-
-[![Patreon](https://cdn.cottle.cloud/littlelink/button-patreon.svg)](https://www.patreon.com/sethcottle)
 
 
 #### 🥰 More Ways to Support LittleLink
@@ -80,6 +98,14 @@ You can support LittleLink by [buying me a coffee](https://www.buymeacoffee.com/
 
 ---
 
+### 🆕 Stay Connected
+
+Join the [Seth's Nook Discord](https://discord.gg/PrAEQFF2fK) server to get updates on LittleLink and more. Use the invite code `PrAEQFF2fK` or click the button below.
+
+[![Discord](https://cdn.cottle.cloud/littlelink/button-discord.svg)](https://discord.gg/PrAEQFF2fK)
+
+---
+
 ### 📊 Analytics
 
 To help build a more privacy focused product, we recommend using [Fathom Analytics](https://usefathom.com/ref/EQVZMV)*. [View our Fathom analytics dashboard](https://app.usefathom.com/share/xbmnwxxl/littlelink.io#/?filters=%5B%5D&range=last_7_days&site=2251799827005303)**.
@@ -88,4 +114,20 @@ To help build a more privacy focused product, we recommend using [Fathom Analyti
 
 ###### ** Analytics in this dashboard start May 03, 2022. View this [Google Sheets file](https://docs.google.com/spreadsheets/d/1GL4SroAdH-OZphBVR5z-BoSukHIEVJfao25q_e9-Ii8/edit?usp=sharing) with the generic unique pageview data from Google Analytics.
 
-[![PayPal](https://cdn.cottle.cloud/littlelink/button-fathom-analytics.svg)](https://usefathom.com/ref/EQVZMV)
+[![Fathom](https://cdn.cottle.cloud/littlelink/button-fathom-analytics.svg)](https://usefathom.com/ref/EQVZMV)
+
+---
+### 🐳 Docker Support
+LittleLink includes Docker support for easy deployment and development. All Docker-related files are located in the `docker/` directory.
+
+To run LittleLink using Docker:
+
+```bash
+docker compose -f docker/compose.yaml up
+```
+
+This will make the site available at http://localhost:8080
+
+For more information about Docker configuration, see [docker/README.md](docker/README.md).
+
+---
